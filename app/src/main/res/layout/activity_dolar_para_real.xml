@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DolarParaRealActivity"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converter US$ para R$"
+        android:textSize="28sp"
+        />
+
+    <EditText
+        android:id="@+id/dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50sp"
+        android:paddingVertical="10sp"
+        android:text="Converter"
+        android:backgroundTint="@color/verde"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/converterRealButton"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50sp"
+        android:paddingVertical="10sp"
+        android:text="Voltar"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/voltarButton"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</LinearLayout>
